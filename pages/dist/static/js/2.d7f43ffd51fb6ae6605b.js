@@ -1,0 +1,2 @@
+webpackJsonp([2],{taF9:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var r={render:function(){var t=this.$createElement;return(this._self._c||t)("div",{staticClass:"product"},[this._v("\n  分类\n")])},staticRenderFns:[]};var a=n("C7Lr")({name:"Product"},r,!1,function(t){n("wTBy")},"data-v-68c3b2a7",null);e.default=a.exports},wTBy:function(t,e){}});
+//# sourceMappingURL=2.d7f43ffd51fb6ae6605b.js.map

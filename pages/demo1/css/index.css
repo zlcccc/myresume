@@ -1,0 +1,264 @@
+@import '../css/base.css';
+
+header{
+background: url('../img/形状2.png') no-repeat top;
+height:1080px;
+position: relative;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+    width: 20%;
+}
+.header-container{
+    position: relative;
+}
+.head{
+    display: flex;
+    position: relative;
+    padding-top: 30px;
+}
+nav{
+    display: inline-block;
+    flex: 1;
+    position: absolute;
+    right: 0;
+    line-height: 40px;
+}
+nav a{
+    margin: 0 50px;
+    font-size: 16px;
+    color: #fff;
+}
+nav a:hover{
+    color:#ccc;
+}
+nav .active{
+    background: #fff;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    color: #63cffe;
+    text-align: center;
+    border-radius: 50px;
+}
+.banner{
+    position: relative;
+    padding-top: 130px; 
+}
+.banner-left{
+    position: absolute;
+    left: 0;
+}
+.banner-right{
+    position: absolute;
+    right: -80px;
+}
+.banner-left h4{
+    font-size: 33px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.banner-left p{
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 0;
+}
+.banner-left a{
+    color: #fff;
+    font-size: 16px;
+}
+.banner-left a:hover{
+    color: #ccc;
+}
+.container-title{
+    width: 360px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.about{
+    position: absolute;
+    text-align: center;
+    top: -170px;
+}
+.about .en{
+    font-size: 54px;
+    color: #ebebeb;
+}
+.about .cn{
+    font-size: 44px;
+    color: #333;
+}
+.about .tt{
+    font-size: 14px;
+    color: #888;
+}
+.ppp{
+    position: relative;
+}
+.about-con{
+    display: flex;
+    height: 625px;
+}
+.about-left{
+    flex: 1;
+    padding-top: 150px;
+    padding-left: 100px;
+
+}
+.about-right{
+    flex: 1;
+    padding-top: 70px;
+    padding-right: 100px;
+}
+.about-left h4{
+    font-size: 27px;
+    color: #333;
+    margin-bottom: 35px; 
+}
+.about-left p{
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 40px;
+}
+.about-left button{
+    width: 135px;
+    height: 40px;
+    background: #63cffe;
+    color: #fff;
+    border: none;
+}
+.about-icons{
+    height: 420px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.icons{
+    display: flex;
+}
+
+.icon{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+}
+.icon p{
+    font-size: 16px;
+    color: #63cffe;
+    padding-top: 10px;
+}
+.icon p + p{
+    font-size: 40px;
+    color: #63cffe;
+}
+.anliis{
+    display: flex;
+    margin-top: 30px;
+    height: 850px;;
+}
+.anlii{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #fff;
+    width: 360px;
+    height: 480px
+}
+.anlii > div{
+    width: 360px;
+    height: 480px;
+    box-shadow: 0 0 2px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 5px solid #FFF;
+}
+.anlii  div .img{
+    width: 320px;
+    height: 320px;
+    background-color:#f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.anlii div p{
+    padding-left: 15px;
+    padding-top: 20px;
+    display: block;
+    font-size: 16px;
+    color: #444;
+}
+.news{
+    font-size: 16px;
+    color: #555;
+    padding-top: 80px;
+    line-height: 30px;
+    text-indent: 2rem;
+}
+.news-left{
+    width: 46%;
+    display: inline-block;
+    border-right: 1px solid #333;
+    padding-right: 20px;
+}
+.news-right{
+    width: 46%;
+    padding-left: 20px;
+    display: inline-block;
+}
+.news  + button{
+    display: block;
+    margin: 80px auto;
+    width: 140px;
+    height: 40px;
+    background-color: #63cffe;
+    color: #FFF;
+    border: none;
+}
+footer{
+    height: 780px;
+    width: 100%;
+    background: url("../img/lxw.png") no-repeat top;
+}
+.footer-container{
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 300px;
+    color: #fff;
+    display: flex;
+    font-size: 12px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #fff;
+}
+.qkw{
+    flex: 2;
+}
+.qkw h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.qkw p{
+    line-height: 30px;
+}
+.foot{
+    flex: 4;
+    display: flex;
+}
+.foot ul{
+    flex: 1;
+}
+.foot ul h5{
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.foot ul li{
+    margin-bottom: 40px;
+}
